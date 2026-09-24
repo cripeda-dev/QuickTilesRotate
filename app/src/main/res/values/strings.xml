@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuickTilesRotate</string>
+    <string name="tile_name">Orientamento</string>
+    
+    <string name="state_off">Disattivato (Sistema)</string>
+    <string name="state_portrait">Verticale (Forzato)</string>
+    <string name="state_landscape">Orizzontale (Forzato)</string>
+    
+    <string name="tile_label_off">Rotazione: Off</string>
+    <string name="tile_label_portrait">Rotazione: Verticale</string>
+    <string name="tile_label_landscape">Rotazione: Orizzontale</string>
+    
+    <string name="tile_subtitle_off">Sistema</string>
+    <string name="tile_subtitle_portrait">Bloccato</string>
+    <string name="tile_subtitle_landscape">Forzato</string>
+
+    <string name="notification_channel_name">Controllo Orientamento Schermo</string>
+    <string name="notification_channel_desc">Notifica del servizio overlay per forzare l\'orientamento delle applicazioni</string>
+    <string name="notification_title">Orientamento Schermo Attivo</string>
+    <string name="action_turn_off">Disattiva</string>
+
+    <string name="permission_overlay_title">Visualizzazione sopra altre app</string>
+    <string name="permission_overlay_desc">Questo permesso (SYSTEM_ALERT_WINDOW) è fondamentale per forzare l\'orientamento orizzontale in applicazioni restrittive come Instagram.</string>
+    
+    <string name="permission_notifications_title">Notifiche di background</string>
+    <string name="permission_notifications_desc">Consente di mantenere il servizio in foreground stabile e di disattivarlo rapidamente dal pannello notifiche.</string>
+</resources>

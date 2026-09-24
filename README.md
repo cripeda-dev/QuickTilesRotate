@@ -18,7 +18,8 @@ Alcune applicazioni (come **Instagram**) forzano `android:screenOrientation="por
 
 * ⚡ **Quick Settings Tile istantaneo**: Tocca il toggle nel menu a tendina per scorrere rapidamente tra gli stati:
   - `Off` ➡️ `Orizzontale (Landscape)` ➡️ `Verticale (Portrait)` ➡️ `Off`
-* 📱 **Nessun impatto sul touch**: I tocchi, gli swipe e la tastiera continuano a funzionare normalmente.
+* 📱 **Menu a Pressione Prolungata (Bottom Sheet)**: Tieni premuto a lungo sulla tile dei Quick Settings per aprire un elegante pannello Material 3 dal basso e selezionare direttamente la modalità desiderata con un tocco.
+* 🛡️ **Nessun impatto sul touch**: I tocchi, gli swipe e la tastiera continuano a funzionare normalmente.
 * 🛡️ **Piena conformità con Android 14 e 15 (API 35)**:
   - Utilizza `foregroundServiceType="specialUse"` conformemente alle direttive Google.
   - Notifica persistente a bassa priorità con pulsante rapido per disattivare l'overlay in qualsiasi momento.

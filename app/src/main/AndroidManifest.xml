@@ -29,6 +29,16 @@
             </intent-filter>
         </activity>
 
+        <!-- Quick Settings Tile Long Press BottomSheet Activity -->
+        <activity
+            android:name=".ui.TileSelectionActivity"
+            android:exported="true"
+            android:theme="@style/Theme.QuickTilesRotate.BottomSheet">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
         <!-- Foreground Service controlling the WindowManager Overlay -->
         <service
             android:name=".service.OrientationOverlayService"
